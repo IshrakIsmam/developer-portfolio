@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "open sans", sans-serif;
+}
+
+ /* body {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}  */
+
+.text-primary {
+    color: #fd6e0a;
+}
+
+.btn-primary {
+    color: azure;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 100px;
+    /* padding: 50px ; */
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.text-primary {
+    color: #fd6e0a;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 100px;
+}
+
+.description {
+    width: 585px;
+    margin-bottom: 30px;
+}
+
+.description h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(27, 39, 39);
+}
+
+.description h1 {
+    font-size: 75px;
+    font-weight: 700;
+    color: black;
+}
+
+.description P {
+    font-size: 16px;
+    color: rgb(68, 67, 67);
+}
+
+.description button {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 6px;
+
+}
+
+.dl-btn {
+    background-color: #fd6e0a;
+    color: white;
+    border: 2px solid #fd6e0a;
+
+}
+
+.contact-btn {
+    background-color: white;
+    border: 2px solid #fd6e0a;
+    margin-left: 8px;
+}
+
+
+.hardy img {
+    width: 400px;
+}
+
+
+.header{
+    background-color: #FFF8F3;
+    padding-top: 50PX;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+    background-size: contain ;
+
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+/* about section styles */
+.about{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-description{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.about-inof-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inof-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
