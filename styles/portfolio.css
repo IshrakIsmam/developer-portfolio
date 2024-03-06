@@ -28,8 +28,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    
-    padding: 50px 100px;
+    padding: 50px 200px;
     /* padding: 50px ; */
 }
 
